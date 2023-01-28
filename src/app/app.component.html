@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="header">
+    <h1> Ana Magaly Yañez Ginez </h1>
+  </div>
+
+  <div class="contenido">
+    <div class="company">
+      <h2>Company API</h2>
+      <p><strong>data address =</strong> {{objeto.headquarters.address}}</p>
+      <p><strong>data city =</strong> {{objeto.headquarters.city}}</p>
+      <p><strong>data state = </strong>{{objeto.headquarters.state}}</p>
+      <p><strong>data website =</strong> {{objeto.links.website}}</p>
+      <p><strong>data flickr =</strong> {{objeto.links.flickr}}</p>
+      <p><strong>data twitter = </strong>{{objeto.links.twitter}}</p>
+      <p><strong>data elon_twitter =</strong> {{objeto.links.elon_twitter}}</p>
+    </div>
+    <div class="capsule">
+      <h2>Capsule API</h2>
+      <div class="content-capsule" *ngFor="let index of data">
+        <p><strong> data last_update =</strong> {{index.last_update}}</p>
+        <p><strong> data launches =</strong> {{index.launches}}</p>
+        <p><strong> data serial = </strong>{{index.serial}}</p>
+        <p><strong> data status =</strong> {{index.status}}</p>
+        <p><strong> data type =</strong> {{index.type}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,22 @@
+h1{
+  background-color: magenta;
+  line-height: 1.5;
+}
+
+*{
+  text-align: center;
+}
+h2{
+  margin-top: 50px;
+}
+.content-capsule{
+  border: solid 2px rgba(200, 106, 255, 0.5);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: gray 2px 1px 10px;
+}
+
+
